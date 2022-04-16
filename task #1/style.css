@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+    padding: 0;
+}
+.ta-center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+}
+.main_page{
+    width: 45%;
+    padding: 2px;
+}
+.circles{
+    width:27%;
+}
+.circles div{
+    width: 120px;
+    height: 120px;
+    margin: 10px 15px;
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+.main_page,header,.circles,.banner,.highlights,.list,.content,.project{
+    border: 1px solid;
+    margin: 2px;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+.main_page .list{
+    width: 48%;
+    padding: 10px;
+}
+.main_page .list ol{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.main_page .list ol li{
+    margin-bottom: 20px;
+}
+.main_page .addition_area{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+}
+.main_page .banner{
+    height: 35%;
+}
+.main_page .highlights{
+    height: 65%;
+}
+
+
+.project{
+    width: 45%;
+    padding: 2px;
+}
+.project img{
+    width: 140px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+.project .content p{
+    display: inline;
+    font-size: 15px;
+}
+.content{
+    width: 72%;
+    padding: 20px 10px;
+}
+.title{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

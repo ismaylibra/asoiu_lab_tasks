@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Red+Hat+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #c597b6 50%, #cad87a 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    height: 350px;
+    padding: 50px 70px;
+    background: white;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align: left;
+    padding: 5px;
+    border: 2px solid rgb(99, 121, 40);
+}
+.pm-b{
+    padding-block: 4px;
+    margin-block: 4px;
+}
+input{
+    width: 100%;
+    outline: none;
+}
+
+
+/*           EXTERNAL AREA          */
+
+h1{
+    font-family: 'Red Hat Mono', monospace;;
+    color: rgb(24, 84, 97);
+    border: 1px dotted rgb(95, 109, 44);;
+}
+table{
+    font-family: 'Red Hat Mono', monospace;;
+    color: rgb(62, 22, 78);
+    border: 1px dotted rgb(189, 113, 41);;
+}
+input{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(226, 162, 43);
+    border: 1px solid rgb(205, 50, 192);
+}
